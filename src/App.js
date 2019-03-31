@@ -4,21 +4,22 @@ import ImageText from '../src/components/ImageText'
 import Header from '../src/components/Header'
 import Teachers from '../src/components/Teachers'
 import HomePage from '../src/components/HomePage'
+import AllTeachers from '../src/components/AllTeachers'
 import { BrowserRouter, Switch,  Route } from 'react-router-dom';
 
 
 
 class App extends Component {
 
-  componentDidMount() {
+  // componentDidMount() {
     
-    fetch(`http://localhost:3005/teachers`)
-    .then(resp => resp.json())
-    .then(data => {
-      console.log(data)
-    })
+  //   fetch(`http://localhost:3005/teachers`)
+  //   .then(resp => resp.json())
+  //   .then(data => {
+  //     console.log(data)
+  //   })
 
-  }
+  // }
 
   render() {
     return (

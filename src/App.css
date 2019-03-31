@@ -191,6 +191,7 @@ li a:hover {
    text-decoration: none;
    background-color: rgb(66, 139, 235);
 
+
 }
 
 a.nav_link {
@@ -213,14 +214,16 @@ a.nav_link {
 }
 
 .nav_link.active:hover {
-  background-color: green;
+  background-color: white;
+  color: black;
 }
 a.nav_link:hover {
-  background-color: green;
+  background-color: white;
 }
 
 .dropdown .dropbtn:hover {
-  background-color: green;
+  color: black;
+  background-color: white;
   padding-left: 90px;
   padding-right: 90px;
 }
@@ -269,6 +272,17 @@ a.nav_link:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* uploadTeachers */
+
+.teacher-nameform {
+  height: 20px;
+  width: 10%;
+}
+
+.name-title-form {
+  font-size: 20px;
 }
 
 
