@@ -11,10 +11,14 @@ render() {
     return (
 
         <React.Fragment>
-            <span>Please Sign Up:</span>
+            <div id="teacher-signup">Please Sign Up</div>
+            <div className="form-container">
             <div>
-            <span className="name-title-form">Name </span>
+            <label className="name-title-form">Name </label>
             <input name="Name" class="teacher-nameform" />
+            </div>
+            <label className="age-title-form">Age </label>
+            <input name="age" className="teacher-ageform" />
             </div>
         </React.Fragment>
     )

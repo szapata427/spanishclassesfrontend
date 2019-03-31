@@ -276,14 +276,32 @@ a.nav_link:hover {
 
 /* uploadTeachers */
 
-.teacher-nameform {
-  height: 20px;
-  width: 10%;
+#teacher-signup {
+width: auto;
+text-align: center;
+font-size: 30px;
+color: rgb(40, 140, 233);
+font-weight: 700;
+margin-top: 5%;
+
 }
 
-.name-title-form {
-  font-size: 20px;
+.form-container {
+  width: auto;
+  text-align: center;
+  font-size: 25px;
+  
 }
+
+.teacher-nameform {
+  height: 25px;
+  width: 10%;
+  margin-top: 5%;
+}
+
+
+
+
 
 
 
