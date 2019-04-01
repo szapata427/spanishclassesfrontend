@@ -7,7 +7,9 @@ class UploadTeachers extends Component {
     return (
       <React.Fragment>
         <div id="teacher-signup">
+        <div className="teacher-signup-container">
           Please Sign Up
+          </div>
           <div className="form-container">
             <div className="form-name-container">
               <label className="name-title-form">Name </label>
@@ -19,7 +21,7 @@ class UploadTeachers extends Component {
             </div>
             <div className="form-name-container">
             <label className="name-title-form">Description </label>
-            <input name="description" className="teacher-descriptionform-input" />
+            <textarea name="description" className="teacher-descriptionform-input" maxlength="150" />
             </div>
           </div>
         </div>

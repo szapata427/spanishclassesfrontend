@@ -320,10 +320,11 @@ font-family: 'Montserrat', sans-serif;
 .form-name-container {
   width: auto;
   text-align: center;
+  
 }
 
 .teacher-descriptionform-input {
-  height: 70px;
+  height: 80px;
   width: 15%;
   margin-top: 2%;
   border: 1px solid black;
@@ -332,8 +333,21 @@ font-family: 'Montserrat', sans-serif;
   padding-top:  0px;
   padding-left: 0.4em;
   font-size: 15px;
+  max-height:200px;
+  min-height: 38px;
+  resize: none,
 }
 
+.teacher-signup-container {
+  background-color: rgb(229, 250, 252);
+  width: auto;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 1px inset black;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 
 
