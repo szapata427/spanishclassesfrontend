@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* .App {
   text-align: center;
@@ -279,10 +280,12 @@ a.nav_link:hover {
 #teacher-signup {
 width: auto;
 text-align: center;
-font-size: 30px;
+font-size: 50px;
 color: rgb(40, 140, 233);
 font-weight: 700;
-margin-top: 5%;
+padding-top: 5%;
+font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -290,14 +293,47 @@ margin-top: 5%;
   width: auto;
   text-align: center;
   font-size: 25px;
+  padding-top: 3%;
   
 }
 
-.teacher-nameform {
-  height: 25px;
-  width: 10%;
-  margin-top: 5%;
+.teacher-nameform-input {
+  height: 30px;
+  width: 15%;
+  margin-top: 2%;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: left;
+  padding:  0;
+  padding-left: 0.4em;
+  font-size: 15px;
 }
+
+.name-title-form {
+  width: 10%;
+  display: inline-block;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.form-name-container {
+  width: auto;
+  text-align: center;
+}
+
+.teacher-descriptionform-input {
+  height: 70px;
+  width: 15%;
+  margin-top: 2%;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: left;
+  padding-top:  0px;
+  padding-left: 0.4em;
+  font-size: 15px;
+}
+
 
 
 

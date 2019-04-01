@@ -19,9 +19,6 @@ class Teachers extends Component {
             </div>
             <div>
                List of the teachers
-               Image
-               Description
-               extra information: videos, reviews
             </div>
             <AllTeachers />
             </React.Fragment>
